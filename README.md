@@ -1,21 +1,18 @@
 #### It's a refactoring of [AlexKVal/react-thinking](https://github.com/AlexKVal/react-thinking/)
-by using React-Bootstrap http://react-bootstrap.github.io/
+by using https://github.com/podio/requirejs-react-jsx
 
 Frameworks used:
 - Bootstrap
 - React
 - React-Bootstrap
 - RequireJS
-- Almond
+- requirejs-react-jsx
 
 In console run:
 
-    $ git clone https://github.com/AlexKVal/react-with-bs3
-    $ cd react-with-bs3
+    $ git clone https://github.com/AlexKVal/reactbs3-require-jsx
+    $ cd reactbs3-require-jsx
     $ bower install
-    $ npm install -g react-tools
-    $ jsx --extension jsx jsx/ build/
-    $ node bower_components/r.js/dist/r.js -o build.js
     $ python -m SimpleHTTPServer 8000 & open http://localhost:8000
 
 Result should look like this:
