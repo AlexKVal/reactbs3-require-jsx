@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "r.js": "~2.1.16",
+    "requirejs-react-jsx": "~0.12.1"
   }
 }

@@ -1,8 +1,13 @@
 requirejs.config({
+  baseUrl: 'jsx/components',
   paths: {
-    react: 'bower_components/react/react',
-    'react-bootstrap': 'bower_components/react-bootstrap/react-bootstrap'
+    react: '/bower_components/react/react',
+    JSXTransformer: "/bower_components/react/JSXTransformer",
+    jsx: "/bower_components/requirejs-react-jsx/jsx",
+    text: "/bower_components/requirejs-text/text",
+    'react-bootstrap': '/bower_components/react-bootstrap/react-bootstrap',
+    app: '../code'
   }
 });
 
-requirejs(['build/code']);
+requirejs(['jsx!app']);

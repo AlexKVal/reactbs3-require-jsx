@@ -9,7 +9,7 @@ define(function (require) {
   ];
 
   var React = require('react');
-  var FilterableProductTable = require('./components/FilterableProductTable');
+  var FilterableProductTable = require('jsx!FilterableProductTable');
 
   React.render(
     <FilterableProductTable products={data} />,
