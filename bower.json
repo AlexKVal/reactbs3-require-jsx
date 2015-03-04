@@ -1,0 +1,32 @@
+{
+  "name": "reactbs3-require-jsx",
+  "version": "0.0.5",
+  "homepage": "https://github.com/AlexKVal/reactbs3-require-jsx",
+  "authors": [
+    "AlexKVal <alexkval@gmail.com>"
+  ],
+  "description": "refactoring of react-with-bs3 for use with requirejs-react-jsx",
+  "main": "ReactBS3-require-jsx",
+  "keywords": [
+    "react",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "react": "~0.12.2",
+    "react-bootstrap": "~0.15.1",
+    "requirejs": "~2.1.16"
+  },
+  "devDependencies": {
+    "r.js": "~2.1.16",
+  }
+}
